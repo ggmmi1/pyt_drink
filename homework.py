@@ -20,6 +20,7 @@ if user == '소비자':
 elif user == '주인':
     select = input("원하는 작업을 선택하세요.(추가 또는 삭제):")
     print(select)
+    
     if select == '추가':
         new_choice = input("추가할 음료를 선택하세요.:")
         vending_machine.append(new_choice)
