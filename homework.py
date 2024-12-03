@@ -37,4 +37,6 @@ elif user == '주인':
         print(f"{select}는 없는 작업입니다. 다시 적어주세요.")
 else:
     print(f"{user}는 잘못된 유형입니다. 다시 적어주세요.")
+    
+    
         
